@@ -49,7 +49,10 @@ article {
     padding: 0.5em;
 }
 
-ul { text-align: left; }
+ul { 
+	text-align: left; 
+	margin-top: 70px;
+}
 
 .container {
     display: flex;
@@ -59,11 +62,23 @@ ul { text-align: left; }
 
 blockquote {
     font-style: italic;
+	margin-top: 50px;
+}
+blockquote::after { 
+	content: "🧘";
+	font-style: normal;
 }
 
 p:has(> img){
     text-align: center;
 }
 
-
+.dark-mode {
+	background-color: black;
+	color: white;
+  }
+header button {
+	width: fit-content;
+	position: static;
+}
 
