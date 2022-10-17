@@ -1,111 +1,69 @@
+body {
+	max-width: 900px;
+	margin: auto;
+}
+
+p {
+	text-align: justify;
+}
+
+hr{
+    color: white;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover {
+    font-style: italic;
+}
+
+footer span{
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+header {
+    text-align: center;
+}
 header h1 {
-	text-align: center;
-	font-size: 300%;
-	color: 	 #562151;
+    font-size: 300%;
 }
-header nav {
-	text-align: center;
+header nav a{
+    padding: 0.5em;
 }
-header nav a {
-	text-decoration: none;
-	color: #FB8987;
-}
-hr {
-	color: #f7f7f7;
-	margin-top: 45px;
-	max-width: 600px;
-}
-.container article p {
-	text-align: justify;
-	margin-top: 30px;
-	margin-left: 500px;
-    margin-right: 500px;
-}
-.quote p {
-	text-align: center;
-	color: #562151;
-	font-style: italic;
-	margin-top: 50px;
-}
-.quote p::after {
-	content: "🧘";
-	font-style: normal;
-}
-video {
-	margin-left: 500px;
-	margin-top: 10px;
-}
-.guestbook img {
-	width: 75px;
-	height: 75px;
-	margin-left: 1000px;
-	position: absolute;
-	top: 450px;
 
+header, footer {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
-.guestbook p {
-	margin-left: 900px;
-	position: absolute;
-	top: 520px;
-	text-align: center;
-	font-style: italic;
+header h1 span{
+    color: purple;
 }
-.guestbook a {
-	text-decoration: none;
+
+article {
+    width: fit-content;
+    text-align: center;
+    padding: 0.5em;
 }
+
+ul { text-align: left; }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 blockquote {
-	margin-left: 500px;
+    font-style: italic;
 }
 
-.about h1 {
-	margin-left: 500px;
+p:has(> img){
+    text-align: center;
 }
-.about p {
-	text-align: justify;
-	margin-left: 500px;
-	margin-right: 500px;
-}
-.company {
-	text-align: justify;
-	margin-left: 500px;
-	margin-right: 500px;
-}
-.project {
-	text-align: justify;
-	margin-left: 500px;
-	margin-right: 500px;
-}
-.project a {
-	text-decoration: none;
-}
-.contact {
-	text-align: justify;
-	margin-left: 500px;
-	margin-right: 500px;
-}
-.contact a {
-	text-decoration: none;
-}
-.tech {
-	text-align: justify;
-	margin-left: 500px;
-	margin-right: 500px;
-}
-footer {
-	text-align: center;
-	margin-top: 55px;
-}
-footer a{
-	text-align: center;
-	text-decoration: none;
-}
-.dark-mode {
-	background-color: black;
-	color: white;
-  }
-button {
-	margin-left: 1370px;
-	top: 10px;
-	position: absolute;
-}
+
+
 
