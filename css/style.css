@@ -29,9 +29,11 @@ header {
 }
 header h1 {
     font-size: 300%;
+	color: #562151;
 }
 header nav a{
     padding: 0.5em;
+	color: #FB8987;;
 }
 
 header, footer {
@@ -40,7 +42,7 @@ header, footer {
     margin-top: 5%;
 }
 header h1 span{
-    color: purple;
+    color: #FB8987;
 }
 
 article {
@@ -49,7 +51,7 @@ article {
     padding: 0.5em;
 }
 
-ul { 
+article ul { 
 	text-align: left; 
 	margin-top: 70px;
 }
@@ -77,8 +79,5 @@ p:has(> img){
 	background-color: black;
 	color: white;
   }
-header button {
-	width: fit-content;
-	position: static;
-}
+
 
